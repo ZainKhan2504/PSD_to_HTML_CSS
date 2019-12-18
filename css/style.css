@@ -87,3 +87,46 @@ a:active {
 .menu li a:visited {
     color: #3c5570;
 }
+
+/* Featured Area */
+
+.featured-area {
+    height: 660px;
+    background: #506984;
+}
+
+.featured-area-content {
+    width: 960px;
+    max-width: 100%;
+    color: #ffffff;
+    margin: 0 auto;
+    padding-top: 170px;
+}
+
+.featured-area-content h1 {
+    display: block;
+    width: 100%;
+    font-size: 78px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 0;
+}
+
+.featured-area-content p {
+    font-size: 24px;
+    color: #a3b1bf;
+}
+
+.featured-text-row {
+    margin-bottom: 60px;
+}
+
+.featured-area-btn {
+    background-color: #00bc9c;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-bottom: 2px solid #00a085;
+    padding: 25px 70px;
+}
