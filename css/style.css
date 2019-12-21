@@ -4,7 +4,7 @@ a:active {
     text-decoration: none;
 }
 
-/* HEADER */
+/* MINI HEADER */
 
 .mini-header {
     height: 40px;
@@ -48,6 +48,8 @@ a:active {
     color: #3c5570;
 }
 
+/* MAIN HEADER */
+
 .main-header {
     height: 112px;
     border-bottom: 1px solid #e6e9ed;
@@ -88,11 +90,13 @@ a:active {
     color: #3c5570;
 }
 
-/* Featured Area */
+/* FEATURED AREA */
 
 .featured-area {
     height: 660px;
-    background: #506984;
+    background-color: #0780f1;
+    background: url(../img/feature.jpg);
+    opacity: 0.8;
 }
 
 .featured-area-content {
@@ -129,4 +133,58 @@ a:active {
     border: none;
     border-bottom: 2px solid #00a085;
     padding: 25px 70px;
+}
+
+.featured-area-btn {
+    background-color: #05836e;
+}
+
+/* SERVICES */
+
+.services {
+    padding: 125px 0;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.services-head-container {
+    width: 820px;
+    margin: 0 auto;
+    max-width: 100;
+}
+
+.services-head h2 {
+    width: 100%;
+    text-align: center;
+    font-size: 42px;
+    font-weight: bold;
+    color: #506a85;
+    margin-top: 0;
+    margin-bottom: 35px;
+}
+
+.services-head p {
+    font-size: 22px;
+    color: #73879c;
+}
+
+.services-content {
+    margin-top: 60px;
+}
+
+.service-icon {
+    color: #00bc9c;
+    font-size: 50px;
+}
+
+.service-text h3 {
+    font-size: 26px;
+    color: #506a85;
+    text-align: left;
+}
+
+.service-text p {
+    font-size: 16px;
+    color: #73879c;
+    text-align: left;
 }
