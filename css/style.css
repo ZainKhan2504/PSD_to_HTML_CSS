@@ -188,3 +188,55 @@ a:active {
     color: #73879c;
     text-align: left;
 }
+
+/* HOME POSTS */
+
+.home-posts {
+    padding: 125px 0;
+    background-color: #f2f5f7;
+}
+
+.section-head h2,
+.section-head p {
+    width: 100%;
+    text-align: center;
+}
+
+.section-head h2 {
+    font-size: 44px;
+    color: #506a85;
+    margin-bottom: 20px;
+}
+
+.section-head p {
+    font-size: 22px;
+    color: #73879c;
+}
+
+.latest-posts {
+    margin-top: 60px;
+}
+
+.post-inner-col {
+    background-color: #ffffff;
+}
+
+.post-meta {
+    padding: 15px;
+}
+
+.post-meta h4,
+.post-meta p {
+    text-align: center;
+    width: 100%;
+}
+
+.post-meta h4 {
+    font-size: 20px;
+    color: #506a85;
+}
+
+.post-meta p {
+    font-size: 14px;
+    color: #73879c;
+}
