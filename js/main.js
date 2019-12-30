@@ -17,5 +17,8 @@ $(document).ready(function () {
                 items: 4
             }
         }
-    })
+    });
+    $(".menu-toggle").click(function () {
+        $(".main-menu").fadeToggle();
+    });
 });
